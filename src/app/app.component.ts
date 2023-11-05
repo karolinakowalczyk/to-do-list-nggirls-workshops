@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<h1>{{ title }} app is running!</h1>
-    <app-input-button-unit></app-input-button-unit>`,
+  template: `<h1 class="app-title">{{ title }}</h1>
+    <app-list-manager></app-list-manager>`,
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'todo-list';
+  title = 'NG Girls Workshop - To Do App';
 }
